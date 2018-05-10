@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>轮播封装代码测试</title>
+	<link rel="stylesheet" href="../Css/shuffling.css">
+	<script src="../JavaScript/jquery-1.10.2.min.js"></script>
+	<script src="../common/shuffling_htc.js"></script>
+</head>
+<body>
+	<div id="lunbo"></div>
+
+	<script>
+	var imagesArr = ['../images/lunbo01.png','../images/lunbo02.png','../images/lunbo03.png','../images/lunbo04.png'];
+		$("#lunbo").ShufflingHtc(imagesArr,{
+			imageWidth:330,
+			imageHeight:220,
+			moveSpeend:1000,
+			isChange:true,
+			isAotu:false,
+			aotuSpeend:2000
+		});
+	</script>
+</body>
+</html>

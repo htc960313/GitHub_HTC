@@ -1,0 +1,77 @@
+#shuffling_htc{
+			margin: 0 auto;
+			/* border: 1px solid black; */
+			position: relative;
+			overflow: hidden;
+			cursor: pointer;
+		}
+
+		#imgsDiv{
+			position: absolute;
+			left: 0;
+			top: 0px;
+		}
+
+		ul li{
+			list-style: none;
+			float: left;
+		}
+
+		.imagesUl{
+			position: absolute;
+			left: -40px;
+			top: -15px;
+		}
+		.imagesUl li,.imagesUl li img{
+			width: 330px;
+			height: 220px;
+		}
+
+		.point_htc{
+			width: 80px;
+			position: absolute;
+			left: 50%;
+			margin-left: -70px;
+			bottom: 10px;
+		}
+		.point_htc li{
+			width: 10px;
+			height: 10px;
+			margin-right: 10px;
+			background-color: white;
+			border-radius: 50%;
+			cursor: pointer;
+		}
+
+		.left_htc,.ringht_htc{
+			width: 30px;
+			height: 60px;
+			text-align: center;
+			line-height: 60px;
+			font-size: 22px;
+			font-weight: bolder;
+			background-color: #9E9E9E;
+			color: white;
+			position: absolute;
+			z-index: 999;
+			opacity: 0.5;
+			cursor: pointer;
+		}
+		.left_htc{
+			left: -30px;
+		}
+		.ringht_htc{
+			right: -30px;
+		}
+
+		.selectedLi{
+			background-color: orange !important;
+		}
+
+		#shuffling_htc:hover .left_htc{
+			left: 0px;
+		}
+
+		#shuffling_htc:hover .ringht_htc{
+			right: 0px;
+		}
