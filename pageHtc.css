@@ -1,0 +1,49 @@
+#pageHtc{
+			position: relative;
+			margin: 0 auto;
+		}
+		#pageHtc>div{
+			float: left;
+			height: 40px;
+			margin-right: 10px;
+			text-align: center;
+			line-height: 40px;
+			min-width: 40px;
+			border: 1px solid #A3A3A3;
+			background-color: #E6E6E6;
+		}
+
+		#ulDom{
+			overflow: hidden;
+			position: relative;
+		}
+		#ulDiv{
+			height: 40px;
+			position: relative;
+			left: 0px;
+			top: -15px;
+		}
+		#ulDom li{
+			float: left;
+		}
+		#ulLI{
+			margin-top: 0px;
+			margin-left: -40px;
+		}
+
+		li{
+			list-style: none;
+			height: 40px;
+			text-align: center;
+			line-height: 40px;
+			border-right:1px solid #A3A3A3; 
+		}
+
+		#selectPages{
+			height: 40px;
+		}
+
+		.selectedLi{
+			color: orange;
+			font-weight: bolder;
+		}

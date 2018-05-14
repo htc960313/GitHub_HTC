@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>封装分页代码</title>
+	<link rel="stylesheet" href="../Css/pageHtc.css">
+	<script src="../JavaScript/jquery-1.10.2.min.js"></script>
+	<script src="../common/pageHtc.js"></script>
+</head>
+<body>
+	<div id="app" style="height: 40px;"></div>
+
+	<script>
+		$("#app").PageHtc({
+			liWidth:60,
+			pageIndex:1,
+			pageDataCount:196,
+			pagePreCount:10,
+			isPageTurn:true
+		});
+	</script>
+</body>
+</html>
