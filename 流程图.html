@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>流程图模板</title>
+	<link rel="stylesheet" href="../Css/bootstrap.css">
+	<link rel="stylesheet" href="../Css/FlowChart.css">
+	<script src="../JavaScript/jquery-1.10.2.min.js"></script>
+	<script src="../JavaScript/bootstrap.js"></script>
+	<script src="../common/FlowChart.js"></script>
+</head>
+<body>
+	<div id="main"></div>
+	<script>
+		$.get('https://www.easy-mock.com/mock/5aebf0fbd6bbb07214b7b074/htcvue/getAllProcessInfo',function(data){
+			if(data.Status==0){
+				$("#main").FlowChart_HTC(data.List,{});
+			}
+		});
+	</script>
+</body>
+</html>
