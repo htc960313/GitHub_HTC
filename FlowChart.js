@@ -21,15 +21,15 @@
 					for(var i=0;i<dom.jsonData.length;i++){
 						contentHtml += '<div class="modelDiv container-fluid">'+
 							'<div class="top">'+
-								'<div class="title">'+dom.jsonData[i].title+'</div>'+
+								'<div class="titleHtc">'+dom.jsonData[i].title+'</div>'+
 								'<div class="operations">'+
 									'<span>停用</span>'+
 									'<span>编辑</span>'+
 									'<span>删除</span>'+
 								'</div>'+
 							'</div>'+
-							'<div class="content container-fluid">'+
-								'<ul>';
+							'<div class="contentHtc container-fluid">'+
+								'<ul class="UlHtc">';
 							for(var j=0;j<dom.jsonData[i].procArr.length;j++){
 								if(j<dom.jsonData[i].procArr.length-1){
 									if(dom.jsonData[i].procArr[j].type==0){//完成
